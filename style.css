@@ -1,7 +1,7 @@
-@import './assets/css/global.css';
+@import './assets/css/common/global.css';
 @import './assets/css/colors/colors.css';
-@import './assets/css/header.css';
-@import './assets/css/introducao.css';
-@import './assets/css/experiencia.css';
-@import './assets/css/formacao.css';
-@import './assets/css/footer.css';
+@import './assets/css/common/header.css';
+@import './assets/css/home/introducao.css';
+@import './assets/css/home/experiencia.css';
+@import './assets/css/home/formacao.css';
+@import './assets/css/common/footer.css';
