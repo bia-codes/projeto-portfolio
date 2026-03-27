@@ -1,6 +1,6 @@
 .formacao {
-  background: #141414;
-  color: #ffffff;
+  background: var(--text-color-black);
+  color: var(--background-color-2);
 }
 
 .formacao-container {
@@ -25,7 +25,7 @@
 }
 
 .formacao .subtitulo {
-  color: #000000;
+  color: var(--background-color-3);
   max-width: 5ch;
 }
 
@@ -34,11 +34,11 @@
   line-height: 1.33;
   max-width: 40ch;
   margin-bottom: 60px;
-  color: #a3a3a3;
+  color: var(--text-color-gray-1);
 }
 
 .formacao-texto strong {
-  color: #ffffff;
+  color: var(--background-color-2);
 }
 
 .faculdade-lista {
@@ -50,7 +50,7 @@
 
 .faculdade {
   flex: 1;
-  background: #000000;
+  background: var(--background-color-3);
   padding: 20px;
   border-radius: 4px;
   display: flex;
@@ -60,7 +60,7 @@
 .faculdade-tipo {
   font-size: 0.875rem;
   text-transform: uppercase;
-  color: #a3a3a3;
+  color: var(--text-color-gray-1);
   margin-bottom: 10px;
 }
 
@@ -84,7 +84,7 @@
 
 .faculdade-instituicao {
   font-size: 1.125rem;
-  color: #a3a3a3;
+  color: var(--text-color-gray-1);
 }
 
 .cursos {
@@ -94,7 +94,7 @@
 .formacao-extra h3 {
   font-size: 0.875rem;
   line-height: 1.4;
-  color: #8f8f8f;
+  color: var(--text-color-gray-2);
   text-transform: uppercase;
   margin-bottom: 30px;
   position: relative;
@@ -125,7 +125,7 @@
 }
 
 .formacao-extra span {
-  color: #8f8f8f;
+  color: var(--text-color-gray-2);
 }
 
 .cursos li {
@@ -140,7 +140,7 @@
     gap: 40px;
   }
   .formacao .subtitulo {
-    color: #ffffff;
+    color: var(--background-color-2);
   }
   .formacao-texto {
     font-size: 1.25rem;
