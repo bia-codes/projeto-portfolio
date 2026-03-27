@@ -28,6 +28,7 @@
 
 .footer-contato li a {
   color: var(--background-color-2);
+  text-decoration: none;
 }
 
 .footer-copy {

@@ -1,5 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: "Fira Sans", Arial, sans-serif;
+  font-family: FiraSans;
   margin: 0px;
   color: var(--text-color-black);
 }
@@ -37,4 +41,22 @@ img {
     text-transform: capitalize;
     max-width: initial !important;
   }
+}
+
+/* botão do topo */
+
+.btn-topo {
+  display: flex;
+  text-decoration: none;
+  color: var(--text-color-black); 
+  width: max-content;
+  font-weight: bold;
+  font-size: 0.875rem;
+  background-color: var(--icon-color);
+  color: var(--text-color-white-1);
+  padding: 10px 20px;
+  border-radius: 50px;
+  position: relative;
+  bottom: 20px;
+  margin: auto;
 }

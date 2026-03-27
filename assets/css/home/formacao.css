@@ -66,7 +66,7 @@
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#b6f829, #67dd0a);
+  background: linear-gradient(#6029f8, #0565eb);
   position: absolute;
   left: -24px;
 }
@@ -100,12 +100,15 @@
 }
 
 .cursos h3::before {
-  background: url("/assets/img/cursos.svg") no-repeat center center;
+  background-color: var(--icon-color);
+  -webkit-mask-image: url('/assets/img/cursos.svg');
+  mask-image: url('/assets/img/cursos.svg');
 }
 
 .idiomas h3::before {
-  background: url("/assets/img/idiomas.svg") no-repeat center center;
-}
+  background-color: var(--icon-color);
+  -webkit-mask-image: url('/assets/img/idiomas.svg');
+  mask-image: url('/assets/img/idiomas.svg');}
 
 .formacao-extra li {
   font-size: 1.125rem;
