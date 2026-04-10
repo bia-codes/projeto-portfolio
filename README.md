@@ -54,7 +54,7 @@
    
    Copie e cole esse comando no terminal:
    
-       `git clone https://github.com/bia-codes/projeto-portfolio.git`
+       git clone https://github.com/bia-codes/projeto-portfolio.git
 
 5. Visualizar o código
    
